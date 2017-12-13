@@ -47,7 +47,21 @@ $('select#select-2').on('change',function(){
 
 $('select#select-3').on('change',function(){
     var valor3 = $(this).val();
-    alert(valor3);
+    /*primer tipo de pago*/
+ if (valor3=="Tarjeta de crédito") {
+    	$('.sexta-col').html("<img src='assets/img/img-5.jpg' alt='' />" + "<img src='assets/img/img-9.jpg' alt='' />");
+    $('.octava-col').html("<img src='assets/img/img-13.jpg' alt='' />" + "<img src='assets/img/img-21.jpg' alt='' />");
+    }
+    /*segundo tipo de pago*/
+    if (valor3=="Efectivo") {
+    	$('.sexta-col').html("<img src='assets/img/img-6.jpg' alt='' />" + "<img src='assets/img/img-17.jpg' alt='' />");
+    $('.octava-col').html("<img src='assets/img/img-18.jpg' alt='' />" + "<img src='assets/img/img-22.jpg' alt='' />");
+    }
+    /*tercer tipo de pago*/
+    if (valor3=="Ticket de restaurante") {
+    	$('.sexta-col').html("<img src='assets/img/img-23.jpg' alt='' />" + "<img src='assets/img/img-20.jpg' alt='' />");
+    $('.octava-col').html("<img src='assets/img/img-14.jpg' alt='' />" + "<img src='assets/img/img-10.jpg' alt='' />");
+    }
 });
 
 
