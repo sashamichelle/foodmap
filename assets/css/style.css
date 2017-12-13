@@ -1,0 +1,66 @@
+.caja-1{
+	background-color: #2B2B2B;
+  height: 100vh;
+  width: 100%;
+}
+.caja-1 .titulo-1{
+	color:#FFC107;
+	font-size: 70px;
+  margin-top: 230px;
+}
+/*segunda caja*/
+
+.caja-2{
+	background-color: #2B2B2B;
+  height: 100vh;
+  width: 100%;
+}
+.caja-2 .titulo-2{
+	color:#FFC107;
+	font-size: 50px;
+}
+
+.segunda-col iframe{
+height: 400px;
+max-width: 90%;
+
+}
+.tres .tercera-col .titulo-3{
+	color:#FFC107;
+	font-size: 30px;
+}
+
+/*tercera caja*/
+
+.caja-3 {
+	background-color: #2B2B2B;
+  height: auto;
+  width: 100%;
+}
+
+.tres .tercera-col .titulo-3{
+	color:#FFC107;
+	font-size: 30px;
+}
+
+.caja-3 .cinco .sexta-col img{
+
+	width: 300px;
+	height: 250px;
+	border:2px solid white;
+	padding: 5px;
+	margin:5px;
+
+}
+.caja-3 .seis .octava-col img{
+
+	width: 300px;
+	height: 250px;
+  border:2px solid white;
+  padding: 5px;
+  margin:5px;
+}
+
+#desplegable{
+
+}
