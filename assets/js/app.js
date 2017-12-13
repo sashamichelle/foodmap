@@ -63,12 +63,4 @@ $('select#select-3').on('change',function(){
     $('.octava-col').html("<img src='assets/img/img-14.jpg' alt='' />" + "<img src='assets/img/img-10.jpg' alt='' />");
     }
 });
-
-
-/*
-if(miValor >= value1){
-alert("elegiste la opcion 1");
-var miTexto = $("#select-1 option:selected").text();
-}
-*/
 });
